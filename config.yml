@@ -5,13 +5,13 @@ config_dir: '~'
 # Pi-hole configuration.
 pihole_enable: true
 pihole_hostname: pihole
-pihole_timezone: America/Chicago
-pihole_password: "change-this-password"
+pihole_timezone: America/Vancouver
+pihole_password: "password"
 
 # Internet monitoring configuration.
 monitoring_enable: true
 monitoring_grafana_admin_password: "admin"
-monitoring_speedtest_interval: 60m
+monitoring_speedtest_interval: 1m
 monitoring_ping_interval: 5s
 monitoring_ping_hosts:  # [URL];[HUMAN_READABLE_NAME]
   - http://www.google.com/;google.com
